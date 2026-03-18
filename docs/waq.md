@@ -28,7 +28,7 @@ Use `analysis_type="waq"` in [`HypothesisTest`](api/hypothesis_test.md) with opt
 - `use_numba`: use Numba KDE when installed (default: `True`).
 - `cluster_cols`: ignored (accepted for API compatibility).
 
-See the tutorial notebook: [WAQ tutorial](examples/waq_tutorial.ipynb). For **Numba**, **JRSS-B §5-style simulations** (Normal / Laplace / Cauchy, Table 1), and a large-\\(n\\) timing demo, see [WAQ paper sims + scale](examples/waq_numba_scale.ipynb).
+See the tutorial notebook: [WAQ tutorial](examples/waq_tutorial.ipynb). For **Numba**, **buyer GMV** (lognormal in levels, no zeros), Monte Carlo vs DiM, large-\\(n\\) timing, and an optional Cauchy block, see [WAQ buyer GMV + scale](examples/waq_numba_scale.ipynb).
 
 ## References
 

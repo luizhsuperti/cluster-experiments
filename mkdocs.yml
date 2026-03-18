@@ -32,7 +32,7 @@ nav:
       - Variance Reduction:
           - CUPAC Example: cupac_example.ipynb
           - WAQ (thick-tailed outcomes): examples/waq_tutorial.ipynb
-          - WAQ paper sims + scale (Numba): examples/waq_numba_scale.ipynb
+          - WAQ buyer GMV + scale (Numba): examples/waq_numba_scale.ipynb
       - Cluster Experiments:
           - Cluster Randomization: examples/cluster_randomization.ipynb
       - Switchback Experiments:
