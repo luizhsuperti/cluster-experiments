@@ -44,6 +44,7 @@ from cluster_experiments.random_splitter import (
     SwitchbackSplitter,
 )
 from cluster_experiments.relative_lift_transformer import LiftRegressionTransformer
+from cluster_experiments.waq.experiment_analysis import WAQExperimentAnalysis
 from cluster_experiments.washover import ConstantWashover, EmptyWashover, Washover
 
 __all__ = [
@@ -94,4 +95,5 @@ __all__ = [
     "LiftRegressionTransformer",
     "ConfidenceInterval",
     "InferenceResults",
+    "WAQExperimentAnalysis",
 ]

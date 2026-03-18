@@ -10,6 +10,7 @@ site_dir: site
 
 nav:
   - Home: index.md
+  - WAQ analysis: waq.md
   - Quickstart:
       - Quickstart: quickstart.md
       - Power Analysis Guide: normal_power_lines.ipynb
@@ -30,6 +31,8 @@ nav:
           - Delta Method Analysis: delta_method.ipynb
       - Variance Reduction:
           - CUPAC Example: cupac_example.ipynb
+          - WAQ (thick-tailed outcomes): examples/waq_tutorial.ipynb
+          - WAQ paper sims + scale (Numba): examples/waq_numba_scale.ipynb
       - Cluster Experiments:
           - Cluster Randomization: examples/cluster_randomization.ipynb
       - Switchback Experiments:
@@ -50,6 +53,7 @@ nav:
           - Analysis Plan: api/analysis_plan.md
           - Analysis Results: api/analysis_results.md
           - Experiment Analysis Methods: api/experiment_analysis.md
+          - WAQ analysis: api/waq_analysis.md
           - Hypothesis Test: api/hypothesis_test.md
       - Metrics & Variants:
           - Metric: api/metric.md

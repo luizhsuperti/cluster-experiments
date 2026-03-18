@@ -69,6 +69,10 @@ test = [
     "pytest-xdist<4.0.0,>=3.6.1",
 ]
 
+performance = [
+    "numba<1.0.0,>=0.59.0",
+]
+
 docs = [
     "mkdocs<2.0.0,>=1.4.0",
     "mkdocs-material<10.0.0,>=8.5.0",

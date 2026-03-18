@@ -33,6 +33,7 @@ from cluster_experiments.random_splitter import (
     StratifiedSwitchbackSplitter,
     SwitchbackSplitter,
 )
+from cluster_experiments.waq.experiment_analysis import WAQExperimentAnalysis
 
 
 class MissingArgumentError(ValueError):
@@ -316,6 +317,7 @@ analysis_mapping = {
     "paired_ttest_clustered": PairedTTestClusteredAnalysis,
     "mlm": MLMExperimentAnalysis,
     "delta": DeltaMethodAnalysis,
+    "waq": WAQExperimentAnalysis,
 }
 
 cupac_model_mapping = {"": EmptyRegressor, "mean_cupac_model": TargetAggregation}
